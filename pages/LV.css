@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: flex;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+}
+
+header{
+    padding: 50px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:houver{
+    color: white;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 45px;
+}
+
+.topo-do-site .img-topo-do-site img{
+    position: relative;
+
+}
+
+img{
+    border-radius: 50px;
+}
+
+.txt{
+    color: white;
+}
+
+#rodape {
+    color: white;
+    background-color: rgb(63, 63, 63);
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 400px;
+
+  }
+
+  #rodape a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  #rodape a:hover {
+    text-decoration: underline;
+  }
+
+  #alig{
+    padding-bottom: 50px;
+  }
